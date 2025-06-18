@@ -16,7 +16,6 @@ set autoindent
 set smartindent
 set nowrap
 set expandtab
-set cursorline
 
 set encoding=utf-8
 set fileencoding=utf-8
@@ -24,15 +23,16 @@ set tabstop=4
 set shiftwidth=4
 
 if exists('$DISPLAY')
-    colorscheme sorbet
-
+    set cursorline
     set title
     set list
     set noshowmode
     set termguicolors
 
+    colorscheme sorbet
+
     set mouse=a
-    set listchars=tab:»\ ,trail:·
+    set listchars=trail:·
     set laststatus=2
 
     set statusline=

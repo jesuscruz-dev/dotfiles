@@ -1,6 +1,7 @@
 #!/bin/sh
 
 check_updates() {
+    # nf-fa-down_long
     echo " $(pacman -Qu | wc -l)"
 }
 
@@ -22,7 +23,6 @@ disk_usage() {
 
 xrandr --output Virtual-1 --mode 1366x768 &
 nitrogen --restore &
-picom &
 
 while true; do
     xsetroot -name " $(check_updates) | $(cpu_usage) | $(ram_usage) | $(swap_usage) | $(disk_usage) "

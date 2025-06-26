@@ -30,6 +30,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 set tabstop=4
 set shiftwidth=4
+set colorcolumn=80
 set listchars=tab:→\ ,trail:·
 set laststatus=2
 set statusline=

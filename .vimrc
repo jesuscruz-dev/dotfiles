@@ -23,6 +23,7 @@ set termguicolors
 set title
 set list
 set noshowmode
+set nowildmenu
 set hidden
 
 set mouse=a
